@@ -1,0 +1,100 @@
+
+.navbar{
+    position: sticky;
+}
+
+
+header {
+    background-color: darkblue;
+    color: white;}
+h1 {
+    font-size: 25px;
+
+}
+
+h3 {
+    color: darkblue;}
+h2 {
+    color:darkblue;
+    font-size: 25px;
+}
+h4 {
+    color: darkblue;
+}
+/*#section1{*/
+/*    background-image:url(documentation/imgs/background-2.jpg);*/
+/*    !*position: absolute;*!*/
+/*}*/
+/*#section2{*/
+/*    background-color: black;*/
+
+/*#section3{*/
+/*color: black;*/
+/*}!*body {*!*/
+/*    background-image:url(documentation/imgs/nft-background.jpg);*/
+/*!*}*!*/
+/*.text {*/
+/*    color: white;*/
+/*}*/
+body {
+    background: linear-gradient(-45deg, #f0a23c, #d9414b, #853cf0, #69bce6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+h2{
+    color: white;
+}
+
+
+/*p{*/
+/*    background-color: white;*/
+/*}*/
+/*#p1{*/
+/*    background-color: white;*/
+/*}*/
+/*.li{*/
+/*    background-color: white;*/
+/*}*/
+
+/*what is a nft image*/
+#whatisa-nft {
+    height: 350px;
+    width: 350px;
+}
+/*metamask image*/
+#metmask{
+    height: 250px;
+    width: 400px;
+
+}
+/*chrome extension*/
+#chrome-ext{
+    height: 150px;
+    width: 400px;
+
+}
+/*vpn image*/
+#vpn{
+    height: 250px;
+    width: 400px;
+
+}
+/*buying image*/
+#buy{
+    height: 250px;
+    width: 400px;
+}
+

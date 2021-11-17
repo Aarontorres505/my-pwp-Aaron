@@ -19,7 +19,7 @@ $(document).ready(function(){
             },
             message: {
                 required:true,
-                maxLength:2000
+                maxlength:2000
             }
         },
         message: {
@@ -45,6 +45,9 @@ $(document).ready(function(){
 
                     if($(".alert-success" >= 1)){
                         $("#contact")[0].reset()
+
+                        // var myCarousel = document.querySelector('#myCarousel')
+                        // var carousel = new bootstrap.Carousel(myCarousel)
                     }
                 }
             })
